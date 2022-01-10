@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Critical Test" duration-ms="145" started-at="2022-01-08T03:12:52Z" finished-at="2022-01-08T03:12:52Z">
+    <groups>
+      <group name="@Regression">
+        <method signature="TestNGTest.secondTest()[pri:0, instance:com.automation.tests.TestNGTest@221af3c0]" name="secondTest" class="com.automation.tests.TestNGTest"/>
+      </group> <!-- @Regression -->
+    </groups>
+    <test name="Login Test" duration-ms="145" started-at="2022-01-08T03:12:52Z" finished-at="2022-01-08T03:12:52Z">
+      <class name="com.automation.tests.TestNGTest">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.automation.tests.TestNGTest@221af3c0]" name="cleanUp" is-config="true" duration-ms="86" started-at="2022-01-08T03:12:52Z" finished-at="2022-01-08T03:12:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.tests.TestNGTest@221af3c0]" name="setUp" is-config="true" duration-ms="2" started-at="2022-01-08T03:12:52Z" finished-at="2022-01-08T03:12:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:com.automation.tests.TestNGTest@221af3c0]" name="secondTest" duration-ms="0" started-at="2022-01-08T03:12:52Z" finished-at="2022-01-08T03:12:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- com.automation.tests.TestNGTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Critical Test -->
+</testng-results>
